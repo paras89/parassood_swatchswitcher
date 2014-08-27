@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Parassood_Swatchswitcher>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Parassood_Swatchswitcher>
+    </modules>
+</config>

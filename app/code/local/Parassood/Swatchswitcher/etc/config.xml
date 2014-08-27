@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ *
+ *
+ * @category    Parassood
+ * @package     Parassood_Swatchswitcher
+ * @copyright   Paras Sood
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+-->
+<config>
+    <modules>
+        <Parassood_Swatchswitcher>
+            <version>0.0.1</version>
+        </Parassood_Swatchswitcher>
+    </modules>
+    <global>
+        <helpers>
+            <swatchswitcher>
+                <class>Parassood_Swatchswitcher_Helper</class>
+            </swatchswitcher>
+            <catalog>
+                <rewrite>
+                    <image>Parassood_Swatchswitcher_Helper_Image</image>
+                </rewrite>
+            </catalog>
+        </helpers>
+    </global>
+ </config>
