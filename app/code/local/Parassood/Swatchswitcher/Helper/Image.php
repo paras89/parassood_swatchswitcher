@@ -19,7 +19,7 @@ class Parassood_Swatchswitcher_Helper_Image extends Mage_Catalog_Helper_Image
      */
     public function init(Mage_Catalog_Model_Product $product, $attributeName, $imageFile=null)
     {
-        $product = $this->_getSimpleSwatchProduct($product);
+        //$product = $this->_getSimpleSwatchProduct($product);
         return parent::init($product,$attributeName,$imageFile);
 
     }
