@@ -27,5 +27,15 @@
                 </rewrite>
             </catalog>
         </helpers>
+        <blocks>
+            <swatchswitcher>
+                <class>Parassood_Swatchswitcher_Block</class>
+            </swatchswitcher>
+            <amconf>
+                <rewrite>
+                    <catalog_product_view_type_configurablel>Parassood_Swatchswitcher_Block_Catalog_Product_View_Type_Configurablel</catalog_product_view_type_configurablel>
+                </rewrite>
+            </amconf>
+        </blocks>
     </global>
  </config>
